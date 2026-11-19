@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  
+  <defs>
+    <linearGradient id="goGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="50%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071930"/>
+      <stop offset="55%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#133B6B"/>
+    </linearGradient>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EBF2FA"/>
+    </linearGradient>
+    <linearGradient id="deviceBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B2545" flood-opacity="0.22"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#0B2545" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="darkGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#navyBg)"/>
+  <rect width="960" height="540" fill="url(#darkGrid)"/>
+  <circle cx="880" cy="70" r="210" fill="#00B4D8" fill-opacity="0.12"/>
+  <circle cx="80" cy="490" r="190" fill="#F7941D" fill-opacity="0.10"/>
+  <!-- Header -->
+  <rect x="48" y="38" width="180" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="68" cy="54" r="5" fill="#F7941D"/>
+  <text x="82" y="59" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.6">SATIN ALMA REHBERİ</text>
+  <text x="48" y="112" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">Pazaryeri Cihazları vs Kurumsal Takip Sistemi</text>
+  <text x="48" y="142" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">Garanti, IMEI Kaydı, Yazılım Sürekliliği ve 81 İl Teknik Servis Karşılaştırması</text>
+  <rect x="48" y="160" width="96" height="4" rx="2" fill="url(#goGrad)"/>
+  
+      <g font-family="system-ui, sans-serif">
+        <rect x="48" y="208" width="415" height="248" rx="20" fill="#FFFFFF" fill-opacity="0.06" stroke="#EF4444" stroke-opacity="0.5"/>
+        <text x="78" y="248" font-size="18" font-weight="800" fill="#FCA5A5">Kayıtsız / Ucuz Pazaryeri Cihazı</text>
+        <text x="78" y="288" font-size="14" fill="#CBD5E1">✕ Yabancı sunucular, kapanan mobil uygulamalar</text>
+        <text x="78" y="320" font-size="14" fill="#CBD5E1">✕ BTK IMEI kapanma riski &amp; 2G şebeke sorunu</text>
+        <text x="78" y="352" font-size="14" fill="#CBD5E1">✕ Montaj ve teknik destek muhatabı yok</text>
+        <text x="78" y="384" font-size="14" fill="#CBD5E1">✕ Bireysel SIM kartla yüksek aylık fatura</text>
+        <text x="78" y="416" font-size="14" fill="#CBD5E1">✕ Akü bitirme ve araç garantisi riski</text>
+
+        <rect x="497" y="208" width="415" height="248" rx="20" fill="#FFFFFF" fill-opacity="0.11" stroke="#22C55E" stroke-width="2"/>
+        <text x="527" y="248" font-size="18" font-weight="800" fill="#4ADE80">LifeGO mobil Kurumsal Sistem</text>
+        <text x="527" y="288" font-size="14" fill="#E2E8F0">✓ Türkiye sunuculu Türkçe iOS / Android / Web</text>
+        <text x="527" y="320" font-size="14" fill="#E2E8F0">✓ BTK IMEI kayıtlı, 4G LTE ve 2 yıl birebir garanti</text>
+        <text x="527" y="352" font-size="14" fill="#E2E8F0">✓ 81 ilde yetkili servis ve 7/24 çağrı merkezi</text>
+        <text x="527" y="384" font-size="14" fill="#E2E8F0">✓ Endüstriyel M2M data hattı paket içinde hazır</text>
+        <text x="527" y="416" font-size="14" fill="#E2E8F0">✓ Akıllı uyku modu ile %0 akü bitirme riski</text>
+      </g>
+    
+  <!-- Footer brand -->
+  <text x="912" y="512" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#94A3B8">lifegomobil.com • Akıllı GPS &amp; Filo Teknolojileri</text>
+</svg>

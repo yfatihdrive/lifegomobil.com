@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  
+  <defs>
+    <linearGradient id="goGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="50%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071930"/>
+      <stop offset="55%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#133B6B"/>
+    </linearGradient>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EBF2FA"/>
+    </linearGradient>
+    <linearGradient id="deviceBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B2545" flood-opacity="0.22"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#0B2545" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="darkGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#navyBg)"/>
+  <rect width="960" height="540" fill="url(#darkGrid)"/>
+  <circle cx="880" cy="70" r="210" fill="#00B4D8" fill-opacity="0.12"/>
+  <circle cx="80" cy="490" r="190" fill="#F7941D" fill-opacity="0.10"/>
+  <!-- Header -->
+  <rect x="48" y="38" width="180" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="68" cy="54" r="5" fill="#F7941D"/>
+  <text x="82" y="59" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.6">MALİYET ANALİZİ 2026</text>
+  <text x="48" y="112" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">Araç Takip Sistemi Maliyet & Tasarruf Tablosu</text>
+  <text x="48" y="142" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">Bireysel, Kurumsal Filo ve Bataryalı Çözümlerde Yakıt & Güvenlik Geri Dönüşü</text>
+  <rect x="48" y="160" width="96" height="4" rx="2" fill="url(#goGrad)"/>
+  
+      <g font-family="system-ui, sans-serif">
+        <rect x="48" y="205" width="272" height="250" rx="20" fill="#FFFFFF" fill-opacity="0.07" stroke="#38BDF8" stroke-opacity="0.4"/>
+        <text x="72" y="242" font-size="14" font-weight="700" fill="#38BDF8">BİREYSEL PAKET</text>
+        <text x="72" y="280" font-size="24" font-weight="800" fill="#FFFFFF">OBD / Kablolu</text>
+        <text x="72" y="318" font-size="13" fill="#CBD5E1">• 12 Ay M2M Data Dahil</text>
+        <text x="72" y="344" font-size="13" fill="#CBD5E1">• iOS &amp; Android Canlı İzleme</text>
+        <text x="72" y="370" font-size="13" fill="#CBD5E1">• Hırsızlık &amp; Çekici Alarmı</text>
+        <text x="72" y="396" font-size="13" fill="#CBD5E1">• 81 İl Montaj Desteği</text>
+        <rect x="72" y="416" width="224" height="24" rx="12" fill="#00B4D8" fill-opacity="0.22"/>
+        <text x="184" y="432" text-anchor="middle" font-size="12" font-weight="700" fill="#38BDF8">Gizli Ücret Yok • Şeffaf Yenileme</text>
+
+        <rect x="344" y="195" width="272" height="270" rx="20" fill="#FFFFFF" fill-opacity="0.12" stroke="#F7941D" stroke-width="2"/>
+        <text x="368" y="232" font-size="14" font-weight="700" fill="#F7941D">KURUMSAL FİLO (EN POPÜLER)</text>
+        <text x="368" y="272" font-size="24" font-weight="800" fill="#FFFFFF">LG-100 Pro + AI</text>
+        <text x="368" y="310" font-size="13" fill="#E2E8F0">• %22&apos;ye Varan Yakıt Tasarrufu</text>
+        <text x="368" y="336" font-size="13" fill="#E2E8F0">• Uzaktan Motor Blokaj</text>
+        <text x="368" y="362" font-size="13" fill="#E2E8F0">• Excel/PDF Filo Raporları</text>
+        <text x="368" y="388" font-size="13" fill="#E2E8F0">• U-ETDS &amp; ERP API Desteği</text>
+        <rect x="368" y="416" width="224" height="28" rx="14" fill="url(#goGrad)"/>
+        <text x="480" y="435" text-anchor="middle" font-size="12" font-weight="800" fill="#FFFFFF">3-5 Ayda Kendini Amorti Eder</text>
+
+        <rect x="640" y="205" width="272" height="250" rx="20" fill="#FFFFFF" fill-opacity="0.07" stroke="#E91E63" stroke-opacity="0.4"/>
+        <text x="664" y="242" font-size="14" font-weight="700" fill="#F472B6">KABLOSUZ &amp; ÖZEL</text>
+        <text x="664" y="280" font-size="24" font-weight="800" fill="#FFFFFF">Bataryalı / Yat</text>
+        <text x="664" y="318" font-size="13" fill="#CBD5E1">• Montaj Gerektirmeyen Yapı</text>
+        <text x="664" y="344" font-size="13" fill="#CBD5E1">• IP67 / IP68 Su Geçirmez</text>
+        <text x="664" y="370" font-size="13" fill="#CBD5E1">• 90 Güne Kadar Batarya</text>
+        <text x="664" y="396" font-size="13" fill="#CBD5E1">• Sökülme &amp; Işık Sensörü</text>
+        <rect x="664" y="416" width="224" height="24" rx="12" fill="#E91E63" fill-opacity="0.22"/>
+        <text x="776" y="432" text-anchor="middle" font-size="12" font-weight="700" fill="#F472B6">Motosiklet • Karavan • Tekne</text>
+      </g>
+    
+  <!-- Footer brand -->
+  <text x="912" y="512" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#94A3B8">lifegomobil.com • Akıllı GPS &amp; Filo Teknolojileri</text>
+</svg>

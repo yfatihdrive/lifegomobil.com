@@ -1,0 +1,27 @@
+# LifeGO mobil — Akıllı 4G LTE Araç Takip Cihazı ve Filo Yönetimi Sistemi
+
+> Türkiye'nin 81 ilinde yetkili montaj ağıyla bireysel araç takip cihazı, kurumsal filo yönetimi, uzaktan motor blokaj, U-ETDS entegrasyonu ve yapay zeka destekli 4G araç kamera sistemleri sunan yerli teknoloji markası.
+
+## Temel Bilgiler
+- Marka: LifeGO mobil (LifeGO Mobil Teknoloji ve Araç Takip Sistemleri A.Ş.)
+- Web: https://www.lifegomobil.com
+- Hizmet Bölgesi: Türkiye geneli 81 il (Merkez: İstanbul)
+- Telefon: 0 216 825 10 57
+- WhatsApp: 0 216 825 10 87
+- E-posta: info@lifegomobil.com
+- Yasal Uyum: BTK IMEI Kayıtlı Donanımlar, 6698 Sayılı KVKK Uyumlu Türkiye Veri Merkezleri, U-ETDS (Ulaştırma ve Altyapı Bakanlığı) %100 Uyumlu.
+
+## Öne Çıkan Ürünler
+- [LG-100 Pro 4G LTE Araç Takip Cihazı](https://www.lifegomobil.com/urunler/lg-100-pro-arac-takip-cihazi): 4G LTE, uzaktan hız kontrollü motor blokaj, gizli montaj, 2.490 ₺'den başlayan paketler (12 ay M2M hat + yazılım dahil).
+- [LG-110 OBD Bireysel Araç Takip Cihazı](https://www.lifegomobil.com/urunler/lg-110-obd-bireysel-arac-takip-cihazi): Kablo kesmeden 10 saniyede tak-çalıştır OBD-II bireysel takip, araç garantisini %100 korur, 2.190 ₺'den başlayan paketler.
+- [LG-500 Mıknatıslı Bataryalı GPS](https://www.lifegomobil.com/urunler/lg-500-bataryali-miknatisli-gps-takip): 10.000 mAh batarya, 90 güne kadar bekleme, IP67 su geçirmez, kablosuz neodimyum mıknatıs.
+- [LG-200 Moto](https://www.lifegomobil.com/urunler/lg-200-motosiklet-takip-cihazi): IP67 su geçirmez, 3-eksenli eğim/darbe sensörlü, motosiklet akü korumalı takip cihazı.
+- [LG-600 AI 4G Araç Kamerası](https://www.lifegomobil.com/urunler/lg-600-ai-arac-kamera-sistemi): Çift lens 1080p canlı video, ADAS & DMS yapay zeka sürüş güvenliği.
+- [LG-800 U-ETDS Servis Takip](https://www.lifegomobil.com/urunler/lg-800-uetds-servis-takip-cihazi): Bakanlık U-ETDS sistemine otomatik veri aktarımı.
+
+## Ana Kategori & Rehber Sayfaları
+- [Araç Takip Sistemi](https://www.lifegomobil.com/arac-takip)
+- [Bireysel Araç Takip Cihazı](https://www.lifegomobil.com/bireysel-arac-takip)
+- [Mobil & Web Platform](https://www.lifegomobil.com/platform)
+- [Sektörel Çözümler](https://www.lifegomobil.com/cozumler)
+- [Blog & Araç Takip Rehberi](https://www.lifegomobil.com/blog)

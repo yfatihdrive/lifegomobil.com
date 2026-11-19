@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  
+  <defs>
+    <linearGradient id="goGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="50%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071930"/>
+      <stop offset="55%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#133B6B"/>
+    </linearGradient>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EBF2FA"/>
+    </linearGradient>
+    <linearGradient id="deviceBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B2545" flood-opacity="0.22"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#0B2545" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="darkGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#studioBg)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <circle cx="670" cy="110" r="180" fill="#F7941D" fill-opacity="0.09"/>
+  <circle cx="120" cy="500" r="150" fill="#0B2545" fill-opacity="0.06"/>
+  <!-- Brand badge top-left -->
+  <rect x="44" y="40" width="188" height="36" rx="18" fill="#0B2545"/>
+  <circle cx="66" cy="58" r="6" fill="url(#goGrad)"/>
+  <text x="82" y="63" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">LifeGO mobil</text>
+  <!-- Feature pill top-right -->
+  <rect x="570" y="40" width="186" height="36" rx="18" fill="#FFFFFF" stroke="#0B2545" stroke-opacity="0.12" stroke-width="1.5"/>
+  <text x="663" y="63" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#0B2545">AKILLI KARAVAN</text>
+  <!-- Hardware render -->
+  <g filter="url(#shadow)">
+    
+      <rect x="235" y="185" width="330" height="205" rx="26" fill="url(#deviceBody)" stroke="#F7941D" stroke-opacity="0.6" stroke-width="2.5"/>
+      <rect x="260" y="210" width="280" height="155" rx="16" fill="#0F172A"/>
+      <rect x="285" y="232" width="110" height="8" rx="4" fill="url(#orangeGlow)"/>
+      <text x="285" y="278" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">LG-400 CARAVAN</text>
+      <text x="285" y="305" font-family="monospace" font-size="13" fill="#FDBA74">SOLAR &amp; YAŞAM AKÜSÜ TELEMETRİ</text>
+      <rect x="285" y="324" width="115" height="22" rx="6" fill="#1E293B"/>
+      <text x="342" y="339" text-anchor="middle" font-family="monospace" font-size="11" fill="#22C55E">12.8V • %96</text>
+    
+  </g>
+  <!-- Signal arcs -->
+  <path d="M 555 190 A 65 65 0 0 1 610 245" fill="none" stroke="#F7941D" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M 575 168 A 95 95 0 0 1 638 232" fill="none" stroke="#00B4D8" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+  <!-- Bottom caption bar -->
+  <rect x="44" y="502" width="712" height="62" rx="16" fill="#FFFFFF" fill-opacity="0.92" stroke="#0B2545" stroke-opacity="0.08"/>
+  <text x="72" y="538" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#0B2545">LifeGO LG-400 Karavan</text>
+  <text x="728" y="538" text-anchor="end" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#475569">Yaşam Aküsü İzleme • Solar Uyumlu • Çevre Güvenliği</text>
+</svg>

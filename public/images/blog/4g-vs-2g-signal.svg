@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  
+  <defs>
+    <linearGradient id="goGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="50%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+    <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071930"/>
+      <stop offset="55%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#133B6B"/>
+    </linearGradient>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EBF2FA"/>
+    </linearGradient>
+    <linearGradient id="deviceBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7941D"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B2545" flood-opacity="0.22"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#0B2545" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="darkGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#navyBg)"/>
+  <rect width="960" height="540" fill="url(#darkGrid)"/>
+  <circle cx="880" cy="70" r="210" fill="#00B4D8" fill-opacity="0.12"/>
+  <circle cx="80" cy="490" r="190" fill="#F7941D" fill-opacity="0.10"/>
+  <!-- Header -->
+  <rect x="48" y="38" width="180" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="68" cy="54" r="5" fill="#F7941D"/>
+  <text x="82" y="59" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.6">GELECEĞE HAZIR ALTYAPI</text>
+  <text x="48" y="112" font-family="system-ui, sans-serif" font-size="30" font-weight="800" fill="#FFFFFF">4G LTE vs 2G Araç Takip Karşılaştırması</text>
+  <text x="48" y="142" font-family="system-ui, sans-serif" font-size="16" fill="#94A3B8">2G Şebekeleri Kapanırken Kesintisiz Konum İçin 4G CAT-1 Teknolojisi</text>
+  <rect x="48" y="160" width="96" height="4" rx="2" fill="url(#goGrad)"/>
+  
+      <g font-family="system-ui, sans-serif">
+        <rect x="48" y="210" width="410" height="240" rx="20" fill="#FFFFFF" fill-opacity="0.05" stroke="#64748B"/>
+        <text x="80" y="252" font-size="20" font-weight="800" fill="#94A3B8">Eski Nesil 2G Cihazlar</text>
+        <rect x="80" y="280" width="120" height="16" rx="8" fill="#64748B"/>
+        <text x="215" y="293" font-size="13" fill="#94A3B8">Yavaş Bağlantı &amp; Gecikme</text>
+        <text x="80" y="335" font-size="14" fill="#94A3B8">• 2G istasyonları kademeli kapatılıyor</text>
+        <text x="80" y="365" font-size="14" fill="#94A3B8">• Tünel/otopark çıkışında geç bağlanma</text>
+        <text x="80" y="395" font-size="14" fill="#94A3B8">• Canlı video / hızlı blokaj desteği yok</text>
+        <text x="80" y="425" font-size="14" fill="#EF4444">• Kısa ömürlü yatırım riski</text>
+
+        <rect x="502" y="210" width="410" height="240" rx="20" fill="#FFFFFF" fill-opacity="0.11" stroke="#00B4D8" stroke-width="2.5"/>
+        <text x="534" y="252" font-size="20" font-weight="800" fill="#FFFFFF">LifeGO 4G LTE CAT-1</text>
+        <rect x="534" y="280" width="290" height="16" rx="8" fill="url(#goGrad)"/>
+        <text x="534" y="335" font-size="14" fill="#E2E8F0">• 10+ yıl kesintisiz 4G/4.5G şebeke ömrü</text>
+        <text x="534" y="365" font-size="14" fill="#E2E8F0">• Saniyeler içinde canlı konum &amp; motor blokaj</text>
+        <text x="534" y="395" font-size="14" fill="#E2E8F0">• Çoklu uydu (GPS + GLONASS + BeiDou)</text>
+        <text x="534" y="425" font-size="14" fill="#4ADE80">• 81 ilde yüksek çekim kararlılığı</text>
+      </g>
+    
+  <!-- Footer brand -->
+  <text x="912" y="512" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#94A3B8">lifegomobil.com • Akıllı GPS &amp; Filo Teknolojileri</text>
+</svg>
